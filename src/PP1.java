@@ -35,7 +35,7 @@ import java.util.*;
 
                 }
                 //
-                System.out.println(Arrays.toString(b));
+              //  System.out.println(Arrays.toString(b));
                 //System.out.println(a);
              PriorityQueue<Integer> pq=new PriorityQueue<>((c,d)->(d-c));
                 PriorityQueue<Integer> we=new PriorityQueue<>((c,d)->(d-c));
@@ -43,12 +43,12 @@ import java.util.*;
                     pq.add(a[i]);
                     we.add(b[i]);
                 }
-                System.out.println(pq+" "+we);
+             //  System.out.println(pq+" "+we);
                 int sum=0;
                 while(!pq.isEmpty()){
                     sum=sum+pq.poll()*we.poll();
                 }
-                System.out.println(sum);
+               // System.out.println(sum);
 
                // System.out.println(Arrays.toString(b));
                 System.out.println(sum-aliceSum);
