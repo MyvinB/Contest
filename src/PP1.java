@@ -51,7 +51,7 @@ import java.util.*;
                // System.out.println(sum);
 
                // System.out.println(Arrays.toString(b));
-                System.out.println(sum-aliceSum);
+                System.out.println(aliceSum);
 
             }
         }catch (Exception e){
